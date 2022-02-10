@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "nominations",
+  "kind": "singleType",
+  "collectionName": "about_contest_sections",
   "info": {
-    "singularName": "nomination",
-    "pluralName": "nominations",
-    "displayName": "Nomination"
+    "singularName": "about-contest-section",
+    "pluralName": "about-contest-sections",
+    "displayName": "AboutContestSection"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "name": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -23,7 +23,15 @@
       },
       "type": "string"
     },
-    "slug": {
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "videoUrl": {
       "pluginOptions": {
         "i18n": {
           "localized": true
