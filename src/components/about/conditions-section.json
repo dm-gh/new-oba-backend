@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_conditions_sections",
+  "info": {
+    "displayName": "ConditionsSection",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "richtext"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "pdfDownload": {
+      "type": "string"
+    }
+  }
+}

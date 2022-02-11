@@ -1,8 +1,9 @@
 {
   "collectionName": "components_shared_juries",
   "info": {
-    "displayName": "Jury",
-    "icon": "angry"
+    "displayName": "NameAndDescription",
+    "icon": "list-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {

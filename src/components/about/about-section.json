@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_about_sections",
+  "info": {
+    "displayName": "AboutSection",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

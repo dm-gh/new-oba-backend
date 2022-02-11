@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_juries_sections",
+  "info": {
+    "displayName": "JuriesSection",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "juries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.jury"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_nominations_sections",
+  "info": {
+    "displayName": "NominationsSection",
+    "icon": "trophy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "nominations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nomination.nomination"
+    }
+  }
+}

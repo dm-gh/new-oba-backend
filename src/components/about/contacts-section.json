@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_about_contacts_sections",
+  "info": {
+    "displayName": "ContactsSection",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
